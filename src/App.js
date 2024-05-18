@@ -47,7 +47,7 @@ function App() {
       </div>
       <div>
         <p>ALL Todo list</p>
-        {todoList?.map((text)  =>  {
+        {todolist?.map((text)  =>  {
           return (
             <div
             style={{
@@ -60,7 +60,7 @@ function App() {
             >
               <p>{text.name}</p>
               <span
-                onClick={() => removeTodo(text.id)}
+                // onClick={() => removeTodo(text.id)}
                 style={{color: "red" }}
               >
                 delete
